@@ -1,6 +1,10 @@
 @import '../../../../scss/variables';
 @import '../../../../scss/mixins/buttons';
 
+:host {
+  display: flex;
+}
+
 .c-btn {
   user-select: none;
   cursor: pointer;
