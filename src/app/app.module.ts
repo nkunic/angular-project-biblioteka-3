@@ -6,10 +6,16 @@ import { SharedModule } from './shared/shared.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './views/homepage/homepage.component';
 import { KnjigeComponent } from './views/knjige/knjige.component';
+import { KnjigaComponent } from './views/knjige/knjiga/knjiga.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, SharedModule],
-  declarations: [AppComponent, HomepageComponent, KnjigeComponent],
+  declarations: [
+    AppComponent,
+    HomepageComponent,
+    KnjigeComponent,
+    KnjigaComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

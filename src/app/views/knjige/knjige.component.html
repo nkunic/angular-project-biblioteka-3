@@ -1,3 +1,10 @@
-<p>
-knjige works!
-</p>
+<div class="books">
+  <div class="books__item" *ngFor="let knjiga of knjige">
+    <app-knjiga
+      [id]="knjiga.id"
+      [autor]="knjiga.autor"
+      [naslov]="knjiga.naslov"
+    >
+    </app-knjiga>
+  </div>
+</div>
