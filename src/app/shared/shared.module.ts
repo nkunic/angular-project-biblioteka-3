@@ -3,15 +3,12 @@ import { CommonModule } from '@angular/common';
 import { ContentComponent } from './templates/content/content.component';
 
 import { ButtonComponent } from './components/button/button.component';
-import { CardComponent } from './components/card/card.component';
 import { TitleComponent } from './components/title/title.component';
 
 const TEMPLATES_TO_EXPORT = [ContentComponent];
 
 const COMPONENTS_TO_EXPORT = [
-  ContentComponent,
   ButtonComponent,
-  CardComponent,
   TitleComponent,
 ];
 
