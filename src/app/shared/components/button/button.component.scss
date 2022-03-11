@@ -42,6 +42,29 @@
     transparent
   );
 }
+.c-btn--style-secondary {
+  @include button-style(
+    $bodyfont,
+    1,
+    500,
+    center,
+    none,
+    1px,
+    $white,
+    $secondarycolor,
+    transparent,
+    $white,
+    darken($secondarycolor, 10%),
+    transparent,
+    $white,
+    lighten($secondarycolor, 10%),
+    transparent,
+    $white,
+    lighten($secondarycolor, 10%),
+    transparent
+  );
+}
+
 .c-btn--style-gray {
   @include button-style(
     $bodyfont,
